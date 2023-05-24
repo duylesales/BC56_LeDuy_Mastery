@@ -1,0 +1,29 @@
+/*reset CSS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Global*/
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+/*header*/
+.header {
+  padding: 0 150px;
+}
+
+.header__logo img {
+  width: 150px;
+  padding: 10px;
+}
+
+.header__menu a {
+  text-decoration: none;
+  color: #1e1e1e;
+  padding: 15px;
+}
+
+.header__menu a:first-child {
+  margin-left: 20px;
+}
