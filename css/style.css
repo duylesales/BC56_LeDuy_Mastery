@@ -21,9 +21,21 @@ html {
 .header__menu a {
   text-decoration: none;
   color: #1e1e1e;
-  padding: 15px;
+  padding: 10px;
 }
 
-.header__menu a:first-child {
+.header__menu li {
+  display: inline-block;
+}
+
+.header__menu li:first-child {
   margin-left: 20px;
+}
+
+/* Carousel*/
+.carousel {
+  background-image: url(/img/2.jpg);
+  height: 600px;
+  background-size: cover;
+  margin: 20px 0;
 }
