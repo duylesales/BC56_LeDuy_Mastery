@@ -57,8 +57,8 @@ button {
 /* Intro */
 .about {
   position: relative;
-  width: 100%;
-  padding: 0 100px;
+  width: 85%;
+  padding-left: 120px;
   margin: 50px;
 }
 .about__content {
@@ -77,8 +77,8 @@ button {
 
 .about__img {
   position: absolute;
-  width: 35%;
-  right: 400px;
+  width: 45%;
+  right: 150px;
   top: 20px;
 }
 .about__content button {
