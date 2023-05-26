@@ -59,10 +59,10 @@ button {
   position: relative;
   width: 85%;
   padding-left: 120px;
-  margin: 50px;
+  margin: auto;
 }
 .about__content {
-  width: 35%;
+  width: 40%;
   text-align: left;
 }
 .about__content h1 {
@@ -77,8 +77,8 @@ button {
 
 .about__img {
   position: absolute;
-  width: 45%;
-  right: 150px;
+  width: 40%;
+  right: 100px;
   top: 20px;
 }
 .about__content button {
