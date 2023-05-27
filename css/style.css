@@ -145,3 +145,78 @@ button {
   font-size: 2.5rem;
   padding-bottom: 20px;
 }
+
+/* POST & EVENT */
+.posts h2,
+.events h2 {
+  margin: 100px 0 50px 0;
+  font-size: xx-large;
+}
+
+.news {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 800px;
+  display: inline-block;
+  margin: auto;
+}
+
+.posts {
+  display: inline-block;
+  width: 35%;
+  padding: 0 100px 0 150px;
+  border-radius: 5px;
+}
+
+.news .posts {
+  display: inline-block;
+}
+
+.post__item {
+  min-height: 120px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #f6f6f6;
+  padding-bottom: 5px;
+}
+
+.post__item img {
+  position: absolute;
+  width: 120px;
+  padding: 25px;
+}
+
+.post_item img .post__img__border {
+  border-radius: 10px;
+}
+.post__content {
+  padding: 20px 0 0 160px;
+}
+
+.post__content h3 {
+  padding-bottom: 5px;
+}
+
+.post__content .post__date {
+  padding-bottom: 5px;
+}
+
+.posts button {
+  margin: 20px 0 0 350px;
+}
+
+.events {
+  display: inline-block;
+  width: 35%;
+}
+
+.event__item {
+  min-height: 120px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #f6f6f6;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.events button {
+  margin: 20px 0 0 350px;
+}
